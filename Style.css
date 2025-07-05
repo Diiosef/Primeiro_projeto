@@ -6,6 +6,13 @@ body {
   background-size: cover;
 */
 
-/*brackground: color image repeat position/size */
-background: url(./assets/bg-mobile-light.jpg) no-repeat top center/cover;
+  /*brackground: color image repeat position/size */
+  background: url(./assets/bg-mobile-light.jpg) no-repeat top center/cover;
+}
+
+#container {
+  width: 360px;
+  height: 712px;
+  border: 1px solid black;
+  margin: auto;
 }

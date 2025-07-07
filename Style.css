@@ -1,29 +1,38 @@
-body {
-  /*
-  background-image: url(./assets/bg-mobile-light.jpg);
-  background-repeat: no-repeat
-  background-position: top center;
-  background-size: cover;
-*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  /*brackground: color image repeat position/size */
+body {
   background: url(./assets/bg-mobile-light.jpg) no-repeat top center/cover;
 }
 
 body * {
   font-family: "Inter", sans-serif;
+  color: black;
 }
 
 #container {
   width: 360px;
   border: 1px solid black;
   margin: auto;
+  padding: 100px;
+  margin-top: 56px;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
 }
 
 #profile {
   text-align: center;
+  padding: 24px;
 }
 #profile img {
-  display: block;
   width: 112px;
+}
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 8px;
 }

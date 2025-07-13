@@ -16,12 +16,7 @@ body * {
 #container {
   width: 360px;
   border: 1px solid black;
-  margin: auto;
-  padding: 100px;
-  margin-top: 56px;
-  margin-right: auto;
-  margin-bottom: auto;
-  margin-left: auto;
+  margin: 56px auto 0px;
 }
 
 #profile {

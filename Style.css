@@ -24,6 +24,8 @@ body * {
   padding: 24px;
 }
 #profile img {
+  display: block;
+  margin:  0 auto;
   width: 112px;
 }
 #profile p {

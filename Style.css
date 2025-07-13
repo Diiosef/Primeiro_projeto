@@ -5,18 +5,18 @@
 }
 
 body {
-  background: url(./assets/bg-desktop.jpg) no-repeat top center/cover;
+  background: url(./assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
 body * {
   font-family: "Inter", sans-serif;
-  color: black;
+  color: white;
 }
 
 #container {
   width: 360px;
   margin: 56px auto 0px;
-
+  padding: 0 24px;
 }
 
 #profile {
@@ -25,7 +25,7 @@ body * {
 }
 #profile img {
   display: block;
-  margin:  0 auto;
+  margin: 0 auto;
   width: 112px;
 }
 #profile p {
@@ -41,20 +41,53 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  padding: 24px 0;
 }
-ul li a{
+ul li a {
   border: 1px solid black;
 
   display: flex;
   align-items: center;
   justify-content: center;
-  
+
   padding: 16px 24px;
 
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 8px
-  
-  backdrop-filter: blur(4px)
+  border-radius: 8px;
+
+  backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+/*pseudo-selector*/
+ul li a:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
+}
+
+/*social-limks*/
+#social-links {
+  display: flex;
+  justify-content: center;
+
+  padding: 24px 0;
+
+  font-size: 24px;
+}
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+
+  transition: brackground 0.2s;
+  border-radius: 50%;
+}
+
+#social-links a:hover{
+  background : rgba(255, 255, 255, 0.2);
 }
